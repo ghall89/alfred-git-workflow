@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.ghall.gitrepos</string>
+	<string>com.ghalldev.gitrepos</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -21,8 +21,116 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FD027DF6-1547-4B2C-A721-99AEE1A3F00D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C874866-297E-44C2-BBF8-EE2815F1C72A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D9C2EAA6-C365-41E1-BEA2-B627D053EE46</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C874866-297E-44C2-BBF8-EE2815F1C72A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C1683FD6-7AD9-49CC-BF5C-71C8B09231E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>04555B1A-4DF0-431F-980A-32EF2AFDE602</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C76AAC5-CDBF-4172-9A44-186A170F58FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>544184D5-BC2E-4A47-A579-7D0D7C69D0BF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BCD82B2-9B7C-466A-9E3A-F97677C5A694</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4357762C-F10D-444E-88C1-BC0676FA4FC6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8CEEE71D-12FD-4979-ACE6-7AA61AE0A21F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4AAC0012-C76C-452A-87D1-95AE8292307E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>12F1E7F1-5155-4D53-88F4-A79183848E8D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>55578C07-BC10-4FD0-BA20-7BDF98898673</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>720484DE-7881-46B1-982D-7A37A3ECEB1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>07456563-1DF4-408C-BD77-2EA01BD94F04</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FF40EB53-4545-4E3D-BE72-E06CEE7D701C</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD027DF6-1547-4B2C-A721-99AEE1A3F00D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Graham Hall</string>
@@ -37,6 +145,165 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>5C874866-297E-44C2-BBF8-EE2815F1C72A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/System/Applications/Utilities/Terminal.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>C1683FD6-7AD9-49CC-BF5C-71C8B09231E8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>finder</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>D9C2EAA6-C365-41E1-BEA2-B627D053EE46</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>terminal</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>04555B1A-4DF0-431F-980A-32EF2AFDE602</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>iterm</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>544184D5-BC2E-4A47-A579-7D0D7C69D0BF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>vscode</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>4357762C-F10D-444E-88C1-BC0676FA4FC6</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>nova</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>4AAC0012-C76C-452A-87D1-95AE8292307E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>zed</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>55578C07-BC10-4FD0-BA20-7BDF98898673</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:app}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>fork</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>07456563-1DF4-408C-BD77-2EA01BD94F04</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FD027DF6-1547-4B2C-A721-99AEE1A3F00D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/iTerm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>9C76AAC5-CDBF-4172-9A44-186A170F58FC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -46,7 +313,7 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -62,19 +329,21 @@
 				<key>runningsubtext</key>
 				<string>Finding repos...</string>
 				<key>script</key>
-				<string></string>
+				<string>DIR="${dir}"
+
+./getRepos $DIR</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>./getRepos.sh</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
 				<string>Git Repos</string>
 				<key>type</key>
-				<integer>8</integer>
+				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -103,24 +372,144 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>2BCD82B2-9B7C-466A-9E3A-F97677C5A694</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Nova.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>8CEEE71D-12FD-4979-ACE6-7AA61AE0A21F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Zed.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>12F1E7F1-5155-4D53-88F4-A79183848E8D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Fork.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>720484DE-7881-46B1-982D-7A37A3ECEB1D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>A workflow for getting all the git repos in a given directory configured by the user (defaults to '~/Developer'
+
+To use, simply type 'repo' into Alfred. You can also search results by name using Alfred's built-in filtering. 
+
+Press the right arrow key to get Alfred's standard folder actions, and press return/enter to reveal the repo in the Finder (this can be configured to open the repo in a specfic application like iTerm, VSCode, Fork, etc...)</string>
 	<key>uidata</key>
 	<dict>
+		<key>12F1E7F1-5155-4D53-88F4-A79183848E8D</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>680</real>
+		</dict>
+		<key>2BCD82B2-9B7C-466A-9E3A-F97677C5A694</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>5C874866-297E-44C2-BBF8-EE2815F1C72A</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>125</real>
+		</dict>
+		<key>720484DE-7881-46B1-982D-7A37A3ECEB1D</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>790</real>
+		</dict>
+		<key>8CEEE71D-12FD-4979-ACE6-7AA61AE0A21F</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>9C76AAC5-CDBF-4172-9A44-186A170F58FC</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>C1683FD6-7AD9-49CC-BF5C-71C8B09231E8</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
 		<key>F90BC11A-353B-4B5A-B9BA-B76AC8C4DB08</key>
 		<dict>
 			<key>xpos</key>
-			<real>125</real>
+			<real>150</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>425</real>
+		</dict>
+		<key>FD027DF6-1547-4B2C-A721-99AEE1A3F00D</key>
+		<dict>
+			<key>xpos</key>
+			<real>535</real>
+			<key>ypos</key>
+			<real>340</real>
 		</dict>
 		<key>FF40EB53-4545-4E3D-BE72-E06CEE7D701C</key>
 		<dict>
 			<key>xpos</key>
-			<real>340</real>
+			<real>265</real>
 			<key>ypos</key>
-			<real>200</real>
+			<real>395</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -146,9 +535,57 @@
 			<key>variable</key>
 			<string>dir</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>finder</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Finder</string>
+						<string>finder</string>
+					</array>
+					<array>
+						<string>Terminal</string>
+						<string>terminal</string>
+					</array>
+					<array>
+						<string>iTerm</string>
+						<string>iterm</string>
+					</array>
+					<array>
+						<string>VSCode</string>
+						<string>vscode</string>
+					</array>
+					<array>
+						<string>Nova</string>
+						<string>nova</string>
+					</array>
+					<array>
+						<string>Zed</string>
+						<string>zed</string>
+					</array>
+					<array>
+						<string>Fork</string>
+						<string>fork</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>What application should open your selection by default?</string>
+			<key>label</key>
+			<string>Open In...</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>app</string>
+		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string></string>
+	<string>0.1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
