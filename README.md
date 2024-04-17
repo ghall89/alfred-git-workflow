@@ -8,7 +8,7 @@ Inspired by the [git-repos Raycast extension](https://github.com/raycast/extensi
 
 ## Installation
 
-Download the latest version from [releases](). When downloaded, unzip then double-click the file `Git Repos.alfredworkflow`, and follow the prompts to install and configure the Workflow to your preferences.
+Download the latest version from [releases](https://github.com/ghall89/alfred-git-workflow/releases/). When downloaded, unzip then double-click the file `Git Repos.alfredworkflow`, and follow the prompts to install and configure the Workflow to your preferences.
 
 ## Usage
 
@@ -22,4 +22,4 @@ When a result is highlighted:
 
 ## Go
 
-This workflow is built around a simple utility written I wrote in Go. The utility is compiled for performance and ease of use - you don't need Go installed on your machine to use it. However, I've included the source code for the utility in `src/getRepos` for anybody who is curious.
+This workflow's custom logic is handled by a simple utility I wrote in Go. The utility is compiled for performance and ease of use - you don't need Go installed on your machine to use it. However, I've included the source code for the utility in `src/getRepos` for anybody who is curious.
